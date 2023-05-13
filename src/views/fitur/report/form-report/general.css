@@ -1,0 +1,19 @@
+.report-section-title{
+    text-overflow: ellipsis;
+	font-size: 17px;
+	font-family: Poppins, sans-serif;
+	font-weight: bold;
+	line-height: 35px;
+	text-align: left;
+    padding: 10px;
+}
+.datetime-layout{
+    font-size: 13px;
+    width: 180px;
+    margin-left: 10px;
+}
+.form-select-layout{
+    font-size: 13px;
+    width: 225px;
+    margin-left: 10px;
+}

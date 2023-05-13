@@ -1,0 +1,22 @@
+.create-report-title{
+    color: rgb(41, 41, 41);
+	text-overflow: ellipsis;
+	font-size: 27px;
+	font-family: Poppins, sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+.fill-report{
+    color: rgb(92, 92, 92);
+	text-overflow: ellipsis;
+	font-size: 15px;
+	font-family: "DM Sans", sans-serif;
+	font-weight: lighter;
+	text-align: center;
+    min-height: 40px;
+    line-height: 30px;
+}
+.alert-width{
+	width: 470px;
+	height: 50px;
+}

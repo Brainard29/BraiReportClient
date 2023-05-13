@@ -1,0 +1,35 @@
+.image-size{
+    width: 325px;
+    height: 400px;
+}
+.image-input{
+    width: 325px;
+    font-size: 12px;
+} 
+.title{
+    font-size: 17px;
+    font-weight: bolder;
+	font-family: Poppins, sans-serif;
+}
+.desc2{
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    padding-left: 15px;
+    width: 110px;
+    color: black;
+}
+.desc2-giat{
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+    padding-left: 15px;
+    width: 200px;
+    color: black;
+}
+.report-option{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    color: black;
+    display: block;
+    margin: auto;
+} 

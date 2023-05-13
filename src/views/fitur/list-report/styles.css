@@ -1,0 +1,33 @@
+.card-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.search-input{
+    font-size: 15px;
+}
+.feature-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-bar {
+    margin-bottom: 4px;
+    font-size: 14px;
+} 
+.filter-dropdown{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 625px;
+}
+.convert-button {
+    font-size: 14px;
+}
+.tabel-text{
+    font-size: 13px;
+    color: rgb(92, 92, 92);
+    text-overflow: ellipsis;
+	font-family: Poppins, sans-serif;
+    font-weight: initial;
+	text-align: left;
+}

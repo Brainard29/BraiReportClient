@@ -1,0 +1,41 @@
+.react-pdf__Page__canvas {
+  /* margin: 0 auto; */
+  width: 100% !important;
+  height: auto !important;
+  
+}
+.pages {
+  margin: 15px;
+  padding: 0;
+}
+.input-pdf-file {
+  width: 500px;
+  font-size: 13px;
+  margin-left: 15px;
+}
+.update-pdf {
+  font-size: 13px;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  margin-left: -75px;
+}
+@media screen and (max-width: 500px) {
+  .pages {
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    padding: 0;
+  }
+  .input-pdf-file {
+    width: 175px;
+    font-size: 9px;
+    margin-left: 0;
+  }
+  .update-pdf {
+    font-size: 9px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    margin-left: -15px;
+  }
+}
