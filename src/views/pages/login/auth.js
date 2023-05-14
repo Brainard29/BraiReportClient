@@ -5,7 +5,7 @@ export const useAuth = () => {
 
   const login = async (username, password) => {
     try {
-      const response = await axios.post("https://braireport.herokuapp.com/login", {
+      const response = await axios.post("http://localhost:5000/login", {
         username,
         password,
       });

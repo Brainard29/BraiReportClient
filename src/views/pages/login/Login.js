@@ -18,7 +18,6 @@ const Login = (props) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const [visible, setVisible] = useState(true);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
