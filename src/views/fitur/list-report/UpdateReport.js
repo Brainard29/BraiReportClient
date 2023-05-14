@@ -115,8 +115,8 @@ const UpdateReport = ({
         }
       );
       setVisible(false);
-      window.location.reload()
-      //navigate("/fitur/list-report");
+      //window.location.reload()
+      navigate("/fitur/list-report");
     } catch (error) {
       console.log(error);
     }
