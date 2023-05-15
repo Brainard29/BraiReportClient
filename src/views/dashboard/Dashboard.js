@@ -15,7 +15,7 @@ const Dashboard = () => {
   });
 
   useEffect(() => {
-    axios.get("https://braireport.herokuapp.com/getPdf").then((response) => {
+    axios.get("https://securityreport.herokuapp.com/getPdf").then((response) => {
       const pdfFiles = response.data;
       if (pdfFiles.length > 0) {
         const firstPdfUrl = pdfFiles[0].name;
@@ -38,7 +38,7 @@ const Dashboard = () => {
     formData.append("name", selectedFile);
     axios({
       method: "patch",
-      url: "https://braireport.herokuapp.com/updatePdf/1",
+      url: "https://securityreport.herokuapp.com/updatePdf/1",
       data: formData,
       headers: { "Content-Type": "multipart/form-data" },
     })
@@ -69,7 +69,7 @@ const Dashboard = () => {
           {Array.from(new Array(numPages), (_, index) => (
             <CCarouselItem key={`page_${index + 1}`}>
               <Document
-                file={`https://braireport.herokuapp.com/UploadPDF/${pdfUrl}`}
+                file={`https://securityreport.herokuapp.com/UploadPDF/${pdfUrl}`}
                 onLoadSuccess={onDocumentLoadSuccess}
               >
                 <Page

@@ -24,7 +24,7 @@ const Login = (props) => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("https://braireport.herokuapp.com/login", {
+      const response = await axios.post("https://securityreport.herokuapp.com/login", {
         username,
         password,
       });     

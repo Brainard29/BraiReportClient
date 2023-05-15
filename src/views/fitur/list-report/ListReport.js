@@ -43,7 +43,7 @@ const ListReports = () => {
   const fileExtension = ".xlsx";
 
   const getLaporan = async () => {
-    const response = await axios.get("https://braireport.herokuapp.com/getReports");
+    const response = await axios.get("https://securityreport.herokuapp.com/getReports");
     setLaporan(response.data);
   };
 
@@ -53,7 +53,7 @@ const ListReports = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get(`https://braireport.herokuapp.com?q=${query}`);
+      const res = await axios.get(`https://securityreport.herokuapp.com?q=${query}`);
       setLaporan(res.data);
     };
     if (query.length === 0 || query.length > 0) fetchData();

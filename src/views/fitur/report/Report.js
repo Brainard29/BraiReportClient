@@ -41,7 +41,7 @@ function Report() {
         formData.append(key, value);
       });
 
-      const response = await axios.post('https://braireport.herokuapp.com/reports', formData, {
+      const response = await axios.post('https://securityreport.herokuapp.com/reports', formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
       },

@@ -56,7 +56,7 @@ const UpdateReport = ({
 
   const getReportById = async () => {
     const response = await axios.get(
-      `https://braireport.herokuapp.com/reports/${selectedId}`
+      `https://securityreport.herokuapp.com/reports/${selectedId}`
     );
     if (response.data) {
       setShift(response.data.shift);
@@ -106,7 +106,7 @@ const UpdateReport = ({
       formData.append("url", url);
 
       const response = await axios.patch(
-        `https://braireport.herokuapp.com/reports/${selectedId}`,
+        `https://securityreport.herokuapp.com/reports/${selectedId}`,
         formData,
         {
           headers: {
